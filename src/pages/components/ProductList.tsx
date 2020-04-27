@@ -5,7 +5,7 @@ const ProductList: React.FC<{onDelete: any, products: any}> = ({ onDelete, produ
   const columns = [
     {
       title: 'Name',
-      dataIndex: 'name',
+      dataIndex: 'title',
     },
     {
       title: 'Actions',
